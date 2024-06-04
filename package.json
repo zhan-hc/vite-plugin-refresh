@@ -1,0 +1,17 @@
+{
+  "name": "vite-plugin-refresh",
+  "version": "1.0.0",
+  "description": "刷新插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.1"
+  }
+}
