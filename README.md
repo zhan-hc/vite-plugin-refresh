@@ -21,7 +21,7 @@ yarn add vite-plugin-page-refresh
 ```js
 import refreshPlugin from 'vite-plugin-page-refresh'
 
-// vite.config.td | vite.confing.js
+// vite.config.ts | vite.confing.js
 
 export default defineConfig({
   plugins: [
