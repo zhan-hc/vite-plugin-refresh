@@ -1,17 +1,20 @@
 {
-  "name": "vite-plugin-refresh",
-  "version": "1.0.0",
+  "name": "vite-plugin-page-refresh",
+  "version": "1.1.5",
   "description": "刷新插件",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup src/index.ts --dts --format cjs,esm"
   },
-  "author": "",
+  "author": "zhan-hc",
   "license": "ISC",
   "dependencies": {
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "vite": "^5.2.12"
   },
   "devDependencies": {
-    "@types/node": "^20.14.1"
+    "@types/node": "^20.14.1",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
   }
 }
